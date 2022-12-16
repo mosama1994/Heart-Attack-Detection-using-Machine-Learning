@@ -1,0 +1,31 @@
+Balancing Method,Classifier,Features Selected
+SMOTE,Correlation Based Feature Selection,"Index(['EXERANY', 'EDUCATION', 'GENDER', 'STROKE', 'CHECKUP', 'PHYSHLTH',
+       'DIFFWALK', 'EMPLOYMENT_STATUS', 'GENHLTH', 'AGE_CAT'],
+      dtype='object')"
+Borderline SMOTE,Correlation Based Feature Selection,"Index(['STROKE', 'EXERANY', 'EDUCATION', 'CHECKUP', 'PHYSHLTH', 'GENDER',
+       'DIFFWALK', 'EMPLOYMENT_STATUS', 'GENHLTH', 'AGE_CAT'],
+      dtype='object')"
+SMOTE,F Score Feature Selection,"Index(['GENHLTH', 'PHYSHLTH', 'CHECKUP', 'EXERANY', 'STROKE', 'EDUCATION',
+       'EMPLOYMENT_STATUS', 'DIFFWALK', 'GENDER', 'AGE_CAT'],
+      dtype='object')"
+Borderline SMOTE,F Score Feature Selection,"Index(['GENHLTH', 'PHYSHLTH', 'CHECKUP', 'EXERANY', 'STROKE', 'EDUCATION',
+       'EMPLOYMENT_STATUS', 'DIFFWALK', 'GENDER', 'AGE_CAT'],
+      dtype='object')"
+SMOTE,Forward Sequential Feature Selection,"Index(['GENHLTH', 'HLTHPLN', 'PERSDOC', 'CHECKUP', 'STROKE', 'EDUCATION',
+       'GENDER', 'AGE_CAT', 'BMI_CAT', 'SMOKER_CAT'],
+      dtype='object')"
+Borderline SMOTE,Forward Sequential Feature Selection,"Index(['GENHLTH', 'PERSDOC', 'CHECKUP', 'STROKE', 'EDUCATION',
+       'EMPLOYMENT_STATUS', 'GENDER', 'AGE_CAT', 'SMOKER_CAT', 'HVY_DRINK'],
+      dtype='object')"
+SMOTE,Recursive Feature Elimination,"Index(['GENHLTH', 'PERSDOC', 'MEDCOST', 'CHECKUP', 'STROKE', 'ASTHMA',
+       'DEPRDIS', 'EDUCATION', 'DIFFWALK', 'AGE_CAT'],
+      dtype='object')"
+Borderline SMOTE,Recursive Feature Elimination,"Index(['GENHLTH', 'PERSDOC', 'CHECKUP', 'STROKE', 'ASTHMA', 'EDUCATION',
+       'DIFFWALK', 'GENDER', 'AGE_CAT', 'SMOKER_CAT'],
+      dtype='object')"
+SMOTE,Select From Model Feature Selection,"Index(['GENHLTH', 'EXERANY', 'SLEPTIM', 'STROKE', 'ASTHMA', 'EDUCATION',
+       'INCOME_CAT', 'GENDER', 'AGE_CAT', 'SMOKER_CAT'],
+      dtype='object')"
+Borderline SMOTE,Select From Model Feature Selection,"Index(['GENHLTH', 'PHYSHLTH', 'EXERANY', 'SLEPTIM', 'STROKE', 'EDUCATION',
+       'INCOME_CAT', 'GENDER', 'AGE_CAT', 'SMOKER_CAT'],
+      dtype='object')"
